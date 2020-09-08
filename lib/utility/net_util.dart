@@ -16,4 +16,3 @@ class NetUtil {
     return await (Connectivity().checkConnectivity());
   }
 }
-

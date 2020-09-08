@@ -40,8 +40,7 @@ class QueuedRun {
   }
 
   Future _action(AVoidRunnable runnable) async {
-    await runnable().catchError((error) {
-    });
+    await runnable().catchError((error) {});
     _delayTimer.delay(_duration, _run);
   }
 

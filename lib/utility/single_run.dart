@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'runnable.dart';
+
 class SingleRun<R> {
   List<Completer<R>> _completerList = List<Completer<R>>();
 
@@ -19,7 +20,7 @@ class SingleRun<R> {
         element.complete(result);
       });
       _completerList.clear();
-    } catch(e) {
+    } catch (e) {
       _completerList.forEach((element) {
         element.completeError(e);
       });

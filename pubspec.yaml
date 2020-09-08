@@ -1,7 +1,7 @@
 name: autility
 description: A collection of commonly used tools for developers,eg timer, network, shared preferences.
-version: 0.0.1
-homepage:
+version: 1.0.0
+homepage: https://github.com/aflutterdeveloper/autility.git
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -11,6 +11,8 @@ dependencies:
     sdk: flutter
   connectivity: ^0.4.9
   shared_preferences: ^0.5.3
+  convert: ^2.1.1
+  crypto: ^2.1.4
 
 dev_dependencies:
   flutter_test:

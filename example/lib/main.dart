@@ -28,7 +28,6 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -38,8 +37,7 @@ class _HomePageState extends State<HomePage> {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-          ],
+          children: <Widget>[],
         ),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
