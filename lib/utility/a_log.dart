@@ -5,19 +5,35 @@ class ALog {
   }
 
   static void info(String tag, String msg) {
-    _logger?.info(tag, msg);
+    if (_logger != null) {
+      _logger.info(tag, msg);
+    } else {
+      print("info: $tag $msg");
+    }
   }
 
   static void debug(String tag, String msg) {
-    _logger?.debug(tag, msg);
+    if (_logger != null) {
+      _logger.debug(tag, msg);
+    } else {
+      print("debug: $tag $msg");
+    }
   }
 
   static void warn(String tag, String msg) {
-    _logger?.warn(tag, msg);
+    if (_logger != null) {
+      _logger.warn(tag, msg);
+    } else {
+      print("warn: $tag $msg");
+    }
   }
 
   static void error(String tag, String msg) {
-    _logger?.error(tag, msg);
+    if (_logger != null) {
+      _logger.error(tag, msg);
+    } else {
+      print("error: $tag $msg");
+    }
   }
 }
 
