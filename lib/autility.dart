@@ -11,3 +11,4 @@ export 'utility/queued_run.dart';
 export 'utility/runnable.dart';
 export 'utility/single_run.dart';
 export 'utility/sp.dart';
+export 'utility/serializable.dart';
