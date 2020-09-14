@@ -1,6 +1,6 @@
 class ALog {
   static IALog _logger;
-  void init(IALog logger) {
+  static void init(IALog logger) {
     _logger = logger;
   }
 
