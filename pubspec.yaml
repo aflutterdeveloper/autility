@@ -13,7 +13,7 @@ dependencies:
   shared_preferences: ^0.5.3
   convert: ^2.1.1
   crypto: ^2.1.4
-
+ 
 dev_dependencies:
   flutter_test:
     sdk: flutter
